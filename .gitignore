@@ -1,0 +1,22 @@
+# Google Cloud credentials and YouTube OAuth tokens
+auth/
+sa.json
+yu.json
+token.json
+*credentials*.json
+*.pem
+*.key
+
+# Local environment secrets
+.env
+.env.*
+!.env.example
+
+# Local development files and generated media
+.DS_Store
+.idea/
+__pycache__/
+.venv/
+YT Script/audio_files/
+YT Script/final_video/
+YT Script/background_videos/
